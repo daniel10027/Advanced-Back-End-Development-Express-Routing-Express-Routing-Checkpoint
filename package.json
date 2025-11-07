@@ -1,0 +1,20 @@
+﻿{
+  "name": "checkpoint-site",
+  "version": "1.0.0",
+  "description": "Express app with working-hours middleware (Mon-Fri 09:00-17:00)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --quiet app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

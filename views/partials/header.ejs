@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title><%= title %> | Checkpoint Site</title>
+    <link rel="stylesheet" href="/public/css/style.css"/>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div><strong>Checkpoint Site</strong></div>
+        <div class="nav-links">
+          <a href="/" class="<%= title === "Home" ? "active" : "" %>">Home</a>
+          <a href="/services" class="<%= title === "Our Services" ? "active" : "" %>">Our Services</a>
+          <a href="/contact" class="<%= title === "Contact us" ? "active" : "" %>">Contact us</a>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
